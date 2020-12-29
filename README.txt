@@ -1,5 +1,4 @@
 Programmer: Dawson Theroux
-Student Number: 101106602
 Purpose: Final examination and simulation of a game where Heros try and collect an emerald.
 
 Compilation and launch instructions:
