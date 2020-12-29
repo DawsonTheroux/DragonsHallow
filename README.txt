@@ -7,12 +7,7 @@ Compilation and launch instructions:
 	-run the executable "DragonsHallow" that was created.
 -------------------------------------------------------------------------------------------------------
 General Description of simulator:
-The quest involves 2 heros, Timmy and Herold. Timmy(T) and Harold(H) both start at the left side of the map and try and make their way to the right side of the
-screen to collect the Emerald(*). The heros randomly choose whether to move to the right and up, directly to the right, or right and down on each turn. On each
-turn there is also a 60% chance that some sort of Ork spawns. There are three kinds of Orks: Borks, Porks, and Dorks. Each ork variant has different strengths and 
-health. Orks will randomly choose whether to move left and up, directly left, or left and down. If an Ork comes in contact with a hero, the hero and the Ork will
-lost health based on each others strength and armor. Lastly there is the Dragon(D). The Dragon(D) moves up and down the right edge of the map to protect the
-emerald. If the heros come in contact with the dragon, they instantly die.
+The quest involves 2 heros, Timmy and Herold. Timmy(T) and Harold(H) both start at the left side of the map and try and make their way to the right side of the screen to collect the Emerald(*). The heros randomly choose whether to move to the right and up, directly to the right, or right and down on each turn. On each turn there is also a 60% chance that some sort of Ork spawns. There are three kinds of Orks: Borks, Porks, and Dorks. Each ork variant has different strengths and  health. Orks will randomly choose whether to move left and up, directly left, or left and down. If an Ork comes in contact with a hero, the hero and the Ork will lost health based on each others strength and armor. Lastly there is the Dragon(D). The Dragon(D) moves up and down the right edge of the map to protect the emerald. If the heros come in contact with the dragon, they instantly die.
 
 Description of innovative feature:
 For my innovative feature I decided to add 4 rings and Gollem to the game
