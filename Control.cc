@@ -77,6 +77,7 @@ void Control::populate(){
   
   //Loop through all the QuestPlayers and add the chars to the display.
   list<QuestPlayer*>::iterator it;
+  int counter = 0;
   for(it = playerList.begin(); it != playerList.end(); ++it){
     int playerX;
     int playerY;
@@ -210,9 +211,9 @@ void Control::spawnGollum(){
   for(it = playerList.begin(); it != playerList.end(); ++it){
     if(typeid(**it) == typeid(Hero)){  //If the iterator if over a hero put it in either qp1 or qp2
       if(qp1 == NULL){
-	qp1 = *it;
+	      qp1 = *it;
       }else{
-	qp2 = *it;
+	      qp2 = *it;
       }
     }
   }

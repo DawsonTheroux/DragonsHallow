@@ -19,6 +19,7 @@ Gollum::Gollum(QuestPlayer* qp1, QuestPlayer* qp2): QuestPlayer("Golum",'G',4,10
   evil = true;
   qp1->getCoords(qpX,qpY); //Gets the coords of the first hero to spawn Gollum on the same x.
   x = qpX;
+  y = 0;
 }
 //----------------------------------------------------------------------------------------------------
 bool Gollum::isGollum(){
