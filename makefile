@@ -1,7 +1,10 @@
 #CXX = g++
 CXX = em++
-DragonsHallow:  main.o View.o Ring.o Control.o QuestPlayer.o Gollum.o Hero.o Enemy.o Dragon.o Display.h
-	$(CXX) -o DragonsHallow View.o QuestPlayer.o Gollum.o main.o Control.o Ring.o Hero.o Enemy.o Dragon.o
+DragonsHallow: main.o View.o Ring.o Control.o QuestPlayer.o Gollum.o Hero.o Enemy.o Dragon.o Display.h
+	$(CXX) -o DragonsHallow.html  View.o QuestPlayer.o Gollum.o main.o Control.o Ring.o Hero.o Enemy.o Dragon.o
+
+#DragonsHallow:  main.o View.o Ring.o Control.o QuestPlayer.o Gollum.o Hero.o Enemy.o Dragon.o Display.h
+#	$(CXX) -o DragonsHallow View.o QuestPlayer.o Gollum.o main.o Control.o Ring.o Hero.o Enemy.o Dragon.o
 
 main.o: main.cc Control.cc QuestPlayer.cc random.cc
 	$(CXX) -c main.cc
